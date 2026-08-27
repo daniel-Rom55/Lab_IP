@@ -9,3 +9,4 @@ while i<n:
     i+=1
 else:
     print("El numero es primo")
+    
