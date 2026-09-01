@@ -1,4 +1,4 @@
-numero = int(input("Leer numero: "))
+numero =int(input("Leer numero: "))
 es_primo = True
 if numero <=1:
     es_primo = False
@@ -7,7 +7,7 @@ else:
     while i<numero:
         if numero%i==0:
             es_primo=False
-        i = i+1
+        i =i+1
 if es_primo==True:
     print("Es primo")
     a =0
